@@ -47,7 +47,7 @@ namespace Net_Centric_Project.Migrations
 
                     b.HasKey("AdminId");
 
-                    b.ToTable("Admins");
+                    b.ToTable("Admins", (string)null);
                 });
 
             modelBuilder.Entity("Net_Centric_Project.Models.AdminFutsalMapping", b =>
@@ -64,7 +64,7 @@ namespace Net_Centric_Project.Migrations
 
                     b.HasIndex("FutsalId");
 
-                    b.ToTable("AdminFutsalMappings");
+                    b.ToTable("AdminFutsalMappings", (string)null);
                 });
 
             modelBuilder.Entity("Net_Centric_Project.Models.Futsal", b =>
@@ -98,7 +98,7 @@ namespace Net_Centric_Project.Migrations
 
                     b.HasKey("FutsalId");
 
-                    b.ToTable("Futsals");
+                    b.ToTable("Futsals", (string)null);
                 });
 
             modelBuilder.Entity("Net_Centric_Project.Models.Users", b =>
@@ -127,7 +127,7 @@ namespace Net_Centric_Project.Migrations
 
                     b.HasKey("UsersId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("Net_Centric_Project.Models.AdminFutsalMapping", b =>
